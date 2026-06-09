@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="PingFang SC,Microsoft YaHei,sans-serif">
+  <defs>
+    <marker id="aw" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,10 3.5,0 7" fill="#002FA7"/>
+    </marker>
+    <filter id="s"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.10"/></filter>
+    <linearGradient id="gb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#002FA7" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#002FA7" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="#FAFAF8"/>
+  <rect x="0" y="0" width="900" height="70" fill="url(#gb)"/>
+  <text x="450" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#0A0A0A">传统模式 vs 数字孪生：灾后重建全流程对比</text>
+  <text x="450" y="58" text-anchor="middle" font-size="11" fill="#737373">TRADITIONAL vs DIGITAL TWIN — FULL PIPELINE COMPARISON</text>
+
+  <!-- 左栏标题：传统 -->
+  <rect x="30" y="85" width="400" height="30" fill="#B91C1C" opacity="0.9"/>
+  <text x="230" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">✕ 传统模式</text>
+
+  <!-- 右栏标题：数字孪生 -->
+  <rect x="470" y="85" width="400" height="30" fill="#002FA7"/>
+  <text x="670" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">✓ 数字孪生</text>
+
+  <!-- 对比行1：灾损评估 -->
+  <rect x="30" y="125" width="400" height="70" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="50" y="145" font-size="11" font-weight="600" fill="#991B1B">灾损评估</text>
+  <text x="50" y="163" font-size="10" fill="#B91C1C">5-6人团队现场踏勘</text>
+  <text x="50" y="178" font-size="9" fill="#DC2626">1-2天/点 · 数周汇总 · 错过72h窗口</text>
+
+  <rect x="470" y="125" width="400" height="70" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="490" y="145" font-size="11" font-weight="600" fill="#1E3A8A">灾损评估</text>
+  <text x="490" y="163" font-size="10" fill="#1D4ED8">AI+遥感全域扫描</text>
+  <text x="490" y="178" font-size="9" fill="#2563EB">2人几小时 · 效率↑60-80% · 黄金窗口内出清单</text>
+
+  <!-- 对比行2：重建规划 -->
+  <rect x="30" y="200" width="400" height="70" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="50" y="220" font-size="11" font-weight="600" fill="#991B1B">重建规划</text>
+  <text x="50" y="238" font-size="10" fill="#B91C1C">经验驱动，拍脑袋决策</text>
+  <text x="50" y="253" font-size="9" fill="#DC2626">单方案 · 无法预判二次灾害 · 反复返工</text>
+
+  <rect x="470" y="200" width="400" height="70" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="490" y="220" font-size="11" font-weight="600" fill="#1E3A8A">重建规划</text>
+  <text x="490" y="238" font-size="10" fill="#1D4ED8">虚拟推演，零成本比选</text>
+  <text x="490" y="253" font-size="9" fill="#2563EB">多方案 · 安全+成本+工期全量化 · 先算后做</text>
+
+  <!-- 对比行3：施工管控 -->
+  <rect x="30" y="275" width="400" height="70" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="50" y="295" font-size="11" font-weight="600" fill="#991B1B">施工管控</text>
+  <text x="50" y="313" font-size="10" fill="#B91C1C">人工巡查，事后发现</text>
+  <text x="50" y="328" font-size="9" fill="#DC2626">进度不透明 · 违规靠人盯 · 验收靠纸</text>
+
+  <rect x="470" y="275" width="400" height="70" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="490" y="295" font-size="11" font-weight="600" fill="#1E3A8A">施工管控</text>
+  <text x="490" y="313" font-size="10" fill="#1D4ED8">4D可视化，实时监控</text>
+  <text x="490" y="328" font-size="9" fill="#2563EB">进度自动追踪 · 违规AI预警 · 简化验收</text>
+
+  <!-- 对比行4：长期韧性 -->
+  <rect x="30" y="350" width="400" height="70" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="50" y="370" font-size="11" font-weight="600" fill="#991B1B">长期韧性</text>
+  <text x="50" y="388" font-size="10" fill="#B91C1C">重建=结束，无后续</text>
+  <text x="50" y="403" font-size="9" fill="#DC2626">重建完再受灾 · 年年重建 · 无监测</text>
+
+  <rect x="470" y="350" width="400" height="70" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="490" y="370" font-size="11" font-weight="600" fill="#1E3A8A">长期韧性</text>
+  <text x="490" y="388" font-size="10" fill="#1D4ED8">重建=免疫系统起点</text>
+  <text x="490" y="403" font-size="9" fill="#2563EB">AI年年比对遥感 · 沉降自动预警 · 终身韧性</text>
+
+  <!-- 底部汇总 -->
+  <rect x="30" y="440" width="840" height="1" fill="#E0E0E0"/>
+  <rect x="30" y="450" width="400" height="50" fill="#FEF2F2"/>
+  <text x="230" y="475" text-anchor="middle" font-size="18" font-weight="200" fill="#B91C1C">2-4周</text>
+  <text x="230" y="493" text-anchor="middle" font-size="10" fill="#DC2626">评估到规划周期</text>
+
+  <rect x="470" y="450" width="400" height="50" fill="#002FA7"/>
+  <text x="670" y="475" text-anchor="middle" font-size="18" font-weight="200" fill="#fff">2-6小时</text>
+  <text x="670" y="493" text-anchor="middle" font-size="10" fill="rgba(255,255,255,.85)">评估到规划周期</text>
+
+  <!-- 中间VS -->
+  <text x="450" y="310" text-anchor="middle" font-size="28" font-weight="200" fill="#A3A3A3">VS</text>
+</svg>
