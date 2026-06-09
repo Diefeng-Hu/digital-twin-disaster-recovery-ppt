@@ -849,6 +849,8 @@
   }
   .slide.dark .sub-card{background:rgba(255,255,255,.06)}
   .sub-card.accent{background:var(--accent);color:var(--accent-on)}
+  .sub-card.accent .ttl{color:var(--accent-on)}
+  .sub-card.accent .desc{color:rgba(255,255,255,.85)}
   .sub-card.ink{background:var(--ink);color:var(--paper)}
   .sub-card .nb-corner{
     position:absolute;top:1.6vh;right:1.4vw;
@@ -1338,21 +1340,9 @@
         <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:.96;letter-spacing:-.035em">灾损评估：从天到分钟</h2>
       </div>
       <div class="duo-compare" data-anim="up">
-        <div class="col">
-          <div class="col-tag"><span class="num">A</span> 传统模式</div>
-          <div class="col-ttl">人工踏勘<br/>1-2天/点</div>
-          <div class="col-desc">5-6人团队现场逐点排查，纸质统计汇总需数周，错过黄金72小时窗口。</div>
-          <ul class="col-list">
-            <li>效率低，人力密集</li>
-            <li>数据碎片化</li>
-            <li>无法多灾种耦合</li>
-          </ul>
-        </div>
-        <span class="vrule"></span>
-        <div class="col accent">
-          <div class="col-tag"><span class="num">B</span> 数字孪生</div>
-          <div class="col-ttl">AI+遥感<br/>2人几小时</div>
-          <div class="col-desc">无人机+深度学习全域扫描，AURORa框架一次评估洪涝、滑坡等多灾种损毁。</div>
+        <img src="images/compare.svg" style="width:100%;margin-bottom:2vh;border:1px solid var(--grey-2)" alt="传统vs数字孪生对比"/>
+        <div class="col accent" style="padding:1.6vh 1.4vw">
+          <div class="col-tag"><span class="num">B</span> 数字孪生核心突破</div>
           <ul class="col-list">
             <li>效率提升60-80%</li>
             <li>可解释AI给置信度</li>
@@ -1514,48 +1504,7 @@
         <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:.96;letter-spacing:-.035em">重建不是终点，<br/>是<span style="font-style:italic;font-weight:300;color:var(--accent)">数字免疫系统</span>的起点</h2>
       </div>
       <div class="timeline-h" data-anim="up">
-        <div class="tl-row" style="grid-template-columns:repeat(5,1fr)">
-          <div class="th-node up">
-            <div class="dot"></div>
-            <div class="label">
-              <span class="yr">STEP 01</span>
-              <span class="name">灾后建模</span>
-              <span class="desc">遥感+传感器<br/>快速建孪生</span>
-            </div>
-          </div>
-          <div class="th-node up">
-            <div class="dot"></div>
-            <div class="label">
-              <span class="yr">STEP 02</span>
-              <span class="name">虚拟推演</span>
-              <span class="desc">多方案比选<br/>规避二次灾害</span>
-            </div>
-          </div>
-          <div class="th-node accent up">
-            <div class="dot"></div>
-            <div class="label">
-              <span class="yr">STEP 03</span>
-              <span class="name">闭环控制</span>
-              <span class="desc">传感器回传<br/>自动预警加固</span>
-            </div>
-          </div>
-          <div class="th-node up">
-            <div class="dot"></div>
-            <div class="label">
-              <span class="yr">STEP 04</span>
-              <span class="name">韧性底座</span>
-              <span class="desc">上海CIM计划<br/>数字房屋基座</span>
-            </div>
-          </div>
-          <div class="th-node up">
-            <div class="dot"></div>
-            <div class="label">
-              <span class="yr">STEP 05</span>
-              <span class="name">AI值守</span>
-              <span class="desc">年年比对遥感<br/>终身韧性监测</span>
-            </div>
-          </div>
-        </div>
+        <img src="images/pipeline.svg" style="width:100%;border:1px solid var(--grey-2)" alt="数字孪生灾后重建全流程"/>
       </div>
     </div>
   </div>
@@ -1604,6 +1553,9 @@
           <div class="ttl">四川七曲山森防</div>
           <div class="desc">92万亩古柏林，5秒预警10分钟定位30分钟推演火势</div>
         </div>
+      </div>
+      <div style="margin-top:1vh">
+        <img src="images/chart.svg" style="width:100%;border:1px solid var(--grey-2)" alt="六大案例成效柱状图"/>
       </div>
     </div>
   </div>
